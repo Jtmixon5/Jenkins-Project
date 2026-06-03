@@ -8,7 +8,7 @@ import (
 )
 
 func homeHandler(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprintln(w, "Hello from Go + Jenkins + Kubernetes CI/CD!")
+	fmt.Fprintln(w, "Testing Update!")
 }
 
 func healthHandler(w http.ResponseWriter, r *http.Request) {
