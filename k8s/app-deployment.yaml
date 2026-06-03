@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: go-k8s-demo
-          image: YOUR_DOCKERHUB_USERNAME/go-k8s-demo:latest
+          image: jacobm5/go-k8s-demo:latest
           ports:
             - containerPort: 8080
